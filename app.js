@@ -1,11 +1,16 @@
-if ('0') {
-  console.log('Executes...')
+console.log(!!2)
+
+const userInput = 'my name'
+const hasEnteredValidInput = !!userInput
+
+if (userInput) {
+  // ...
 }
 
-console.log(true && '')
-console.log(123 && 'hi there')
-console.log(0 && 'hi there')
+const age = '31'
+// const numberAge = Number(age);
+const numberAge = +age
 
-console.log(true || '')
-console.log(123 || 'hi there')
-console.log(0 || 'hi there')
+console.log(numberAge + 1)
+
+const stringAge = numberAge + '' // String(numberAge), numberAge.toString()
