@@ -1,7 +1,10 @@
 console.log(!!2)
 
 const userInput = 'my name'
+console.log(userInput)
+
 const hasEnteredValidInput = !!userInput
+console.log(hasEnteredValidInput)
 
 if (userInput) {
   // ...
