@@ -6,13 +6,14 @@ log('hi' > 'hrue') //
 log(5 == '3')
 log('hi' == 'a')
 // Special Case
+log('true' == true) // NaN == 1    equals false
 log('1' == true) // 1 == 1
 log('0' == false) // 0 == 0
 log('' == false) // 0 == 0
 // !!!
 log(5 > true) // 5 > 1
 log('5' > true) // 5 > 1
-log('hi' > true) // NaN > 1
+log('hi' > true) // NaN > 1   equals false
 log(0 == false) // 0 == 0 ==> true
 log(1 == true) // 1 == 1 ==> true
 
